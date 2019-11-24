@@ -124,7 +124,7 @@ body {
   
   border: solid;
   border-width: 10px;
-  border-color: #475c4d;
+  border-color: #9C181B;
   margin-top: 12%;
   text-align: center;
   display: flex;
@@ -134,7 +134,7 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.2em;
-  background-color: #B81227;
+  background-color: #475c4d;
   height: 300px;
 }
 
