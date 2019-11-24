@@ -100,10 +100,12 @@ textarea {
 html {
   background-color: #fff;
   height: 100%;
+  width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  background: url('../img/buzz.jpeg');
+  font-family: 'Mukta', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -112,21 +114,32 @@ body {
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
+  flex-flow: row-wrap;
   justify-content: space-between;
   font-weight: 700; 
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+  
+  border: solid;
+  border-width: 10px;
+  border-color: #475c4d;
+  margin-top: 12%;
+  text-align: center;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.2em;
+  background-color: #B81227;
   height: 300px;
+}
+
+.wrapper span{
+  font-style: italic;
 }
 
 
