@@ -1,4 +1,4 @@
-/*****Mac G Media*****/
+/*****Mac G Media Buzz*****/
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -109,17 +109,65 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.wrapper {
+
+
+.flex-container {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
-  font-weight: 700; 
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
 }
 
-.div-1, .div-2, .div-3 {
+header,
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  color: #fff;
+  background-color: #475c4d;
+  border: solid;
+  border-color: #9c181b;
+  border-width: 5px;
+  height: 25px;
+  text-align: center;
+  font-size: 1em;
+  padding: 25px;
+  margin-top: 7%;
+  
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main p {
+  color: #fff;
+  background-color: #475c4d;
+  border: solid;
+  border-color: #9c181b;
+  border-width: 6px;
+  height: 40px;
+  width: 35%;
+  margin-top: 10%;
+  text-align: center;
+  padding-top: 1%;
+  
+}
+
+.flex-items  {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   
   border: solid;
@@ -138,10 +186,22 @@ body {
   height: 300px;
 }
 
-.wrapper span{
+.flex-items span{
   font-style: italic;
 }
 
+footer {
+ padding-bottom: auto;
+}
+
+footer p {
+  color: #6CC0DC;
+  font-size: 45px;
+  height: 35px;
+  width: 100%;
+  margin-bottom: -4%;
+  font-family: 'Bowlby One SC', cursive;
+}
 
 
 
